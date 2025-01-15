@@ -3,369 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-main.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://db.onlinewebfonts.com/c/2052291a3eb1756dbf47c209e9dd1a70?family=Honey+Florist+-+Personal+Use" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <div class="carousel">
-        <div class="carousel_element carousel_element_1">
-            <i class="fa-solid fa-truck"></i>
-            <h1>
-                Envio gratís por compras mayores a S/300 soles
-            </h1>
-            <i class="fa-solid fa-cart-shopping"></i>
-        </div>
-
-        <div class="carousel_element carousel_element_2">
-            <i class="fa-solid fa-truck"></i>
-            <h1>
-                Envio gratís por compras mayores a S/300 soles
-            </h1>
-            <i class="fa-solid fa-cart-shopping"></i>
-        </div>
-
-    </div>
-    <nav>
-        <div class="nav_div">
-            <div class="nav_div_element">
-                <h1>K-moon</h1>
-
-               <div class="right_side">
-                   <input type="search">
-                   <ul id="lista_1">
-                       <li><i class="fa-solid fa-toggle-on"></i></li>
-                       <li><i class="fa-solid fa-user"></i></li>
-                       <li><i class="fa-solid fa-bag-shopping"></i></li>
-                   </ul>
-               </div>
-
-            </div>
-
-
-            <div id="div_lista">
-                <div class="menu_desplegable">
-                    <div class="category category_1">
-                        <span class="span span_one">INICIO</span>
-                        <ul class="lista lista_one">
-                            <li>categoria 1</li>
-                            <li>categoria 1</li>
-                            <li>categoria 1</li>
-                            <li>categoria 1</li>
-                            <li>categoria 1</li>
-                        </ul>
+<!--    <template id="header">-->
+        <header>
+            <div class="carousel_top">
+                <div class="carousel">
+                    <div class="carousel_element carousel_element_1">
+                        <i class="fa-solid fa-truck"></i>
+                        <h1>
+                            Envio gratís por compras mayores a S/300 soles
+                        </h1>
+                        <i class="fa-solid fa-cart-shopping"></i>
                     </div>
-                    <div class="category category_2">
-                        <span class="span span_two">MARCAS</span>
-                        <ul class="lista lista_two">
-                            <li>categoria 2</li>
-                            <li>categoria 2</li>
-                            <li>categoria 2</li>
-                            <li>categoria 2</li>
-                            <li>categoria 2</li>
-                        </ul>
+
+                    <div class="carousel_element carousel_element_2">
+                        <i class="fa-solid fa-truck"></i>
+                        <h1>
+                            Envio gratís por compras mayores a S/300 soles
+                        </h1>
+                        <i class="fa-solid fa-cart-shopping"></i>
                     </div>
-                    <div class="category category_3">
-                        <span class="span span_three">CUIDADO DE LA PIEL</span>
-                        <ul class="lista lista_three">
-                            <li>categoria 3</li>
-                            <li>categoria 3</li>
-                            <li>categoria 3</li>
-                            <li>categoria 3</li>
-                            <li>categoria 3</li>
-                        </ul>
-                    </div>
-                    <div class="category category_4">
-                        <span class="span span_four">DERMOCOSMETICA</span>
-                        <ul class="lista lista_four">
-                            <li>categoria 4</li>
-                            <li>categoria 4</li>
-                            <li>categoria 4</li>
-                            <li>categoria 4</li>
-                            <li>categoria 4</li>
-                        </ul>
-                    </div>
-                    <div class="category category_5">
-                        <span class="span span_five">SKINCARE COREANO</span>
-                        <ul class="lista lista_five">
-                            <li>CREMAS</li>
-                            <li>SERUMS</li>
-                            <li>BLOQUEADORES</li>
-                            <li>ACCESORIOS</li>
-                            <li>OTROS</li>
-                        </ul>
-                    </div>
-                    <div class="category category_6">
-                        <span class="span span_six">MAQUILLAJE</span>
-                        <ul class="lista lista_six">
-                            <li>LABIALES</li>
-                            <li>POLVO</li>
-                            <li>ESPEJO</li>
-                            <li>CONTENDORES</li>
-                            <li>OTROS</li>
-                        </ul>
-                    </div>
-                    <!--            <div class="category category_7">-->
-                    <!--                <span class="span span_seven">ACCESORIOS Y BROCHAS</span>-->
-                    <!--                <ul class="lista lista_seven">-->
-                    <!--                    <li>categoria 7</li>-->
-                    <!--                    <li>categoria 7</li>-->
-                    <!--                    <li>categoria 7</li>-->
-                    <!--                    <li>categoria 7</li>-->
-                    <!--                    <li>categoria 7</li>-->
-                    <!--                </ul>-->
-                    <!--            </div>-->
-                    <!--            <div class="category category_8">-->
-                    <!--                <span class="span span_eight">RUTINA PARA TU TIPO DE PIEL</span>-->
-                    <!--                <ul class="lista lista_eight">-->
-                    <!--                    <li>categoria 8</li>-->
-                    <!--                    <li>categoria 8</li>-->
-                    <!--                    <li>categoria 8</li>-->
-                    <!--                    <li>categoria 8</li>-->
-                    <!--                    <li>categoria 8</li>-->
-                    <!--                </ul>-->
-                    <!--            </div>-->
-                    <!--            <div class="category category_9">-->
-                    <!--                <span class="span span_nine">SALE 1</span>-->
-                    <!--                <ul class="lista lista_nine">-->
-                    <!--                    <li>categoria 9</li>-->
-                    <!--                    <li>categoria 9</li>-->
-                    <!--                    <li>categoria 9</li>-->
-                    <!--                    <li>categoria 9</li>-->
-                    <!--                    <li>categoria 9</li>-->
-                    <!--                </ul></div>-->
-                    <!--            <div class="category category_10">-->
-                    <!--                <span class="span span_ten">categoria 1</span>-->
-                    <!--                <ul class="lista lista_ten">-->
-                    <!--                    <li>categoria 10</li>-->
-                    <!--                    <li>categoria 10</li>-->
-                    <!--                    <li>categoria 10</li>-->
-                    <!--                    <li>categoria 10</li>-->
-                    <!--                    <li>categoria 10</li>-->
-                    <!--                </ul></div>-->
+
                 </div>
             </div>
+            <nav>
+                <div class="nav_div">
+                    <div class="nav_div_element">
+                        <h1>K-moon</h1>
+
+                        <div class="right_side">
+                            <input type="search">
+                            <ul id="lista_1">
+                                <li><i class="fa-solid fa-toggle-on"></i></li>
+                                <li><i class="fa-solid fa-user"></i></li>
+                                <li><i class="fa-solid fa-bag-shopping"></i></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div id="div_lista">
+                        <div class="menu_desplegable">
+                            <div class="category category_1">
+                                <span class="span span_one">INICIO</span>
+                                <ul class="lista lista_one">
+                                    <li>categoria 1</li>
+                                    <li>categoria 1</li>
+                                    <li>categoria 1</li>
+                                    <li>categoria 1</li>
+                                    <li>categoria 1</li>
+                                </ul>
+                            </div>
+                            <div class="category category_2">
+                                <span class="span span_two">MARCAS</span>
+                                <ul class="lista lista_two">
+                                    <li>categoria 2</li>
+                                    <li>categoria 2</li>
+                                    <li>categoria 2</li>
+                                    <li>categoria 2</li>
+                                    <li>categoria 2</li>
+                                </ul>
+                            </div>
+                            <div class="category category_3">
+                                <span class="span span_three">CUIDADO DE LA PIEL</span>
+                                <ul class="lista lista_three">
+                                    <li>categoria 3</li>
+                                    <li>categoria 3</li>
+                                    <li>categoria 3</li>
+                                    <li>categoria 3</li>
+                                    <li>categoria 3</li>
+                                </ul>
+                            </div>
+                            <div class="category category_4">
+                                <span class="span span_four">DERMOCOSMETICA</span>
+                                <ul class="lista lista_four">
+                                    <li>categoria 4</li>
+                                    <li>categoria 4</li>
+                                    <li>categoria 4</li>
+                                    <li>categoria 4</li>
+                                    <li>categoria 4</li>
+                                </ul>
+                            </div>
+                            <div class="category category_5">
+                                <span class="span span_five">SKINCARE COREANO</span>
+                                <ul class="lista lista_five">
+                                    <li>CREMAS</li>
+                                    <li>SERUMS</li>
+                                    <li>BLOQUEADORES</li>
+                                    <li>ACCESORIOS</li>
+                                    <li>OTROS</li>
+                                </ul>
+                            </div>
+                            <div class="category category_6">
+                                <span class="span span_six">MAQUILLAJE</span>
+                                <ul class="lista lista_six">
+                                    <li>LABIALES</li>
+                                    <li>POLVO</li>
+                                    <li>ESPEJO</li>
+                                    <li>CONTENDORES</li>
+                                    <li>OTROS</li>
+                                </ul>
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </header>
+<!--    </template>-->
+
+
+    <main>
+        <section class="slider_circles_main">
+            <div class="imagenes_container_slider">
+                <img class="img_circle img_circle_1" src="ProbandoSlider/Imagenes-main/GojoSatoruThree.jpg" alt="">
+                <img class="img_circle img_circle_2" src="ProbandoSlider/Imagenes-main/NewJeansOne.jpg" alt="">
+                <img class="img_circle img_circle_3" src="ProbandoSlider/Imagenes-main/GojoSatoruThree.jpg" alt="">
+                <img class="img_circle img_circle_4" src="ProbandoSlider/Imagenes-main/NewJeansOne.jpg" alt="">
+            </div>
+            <div class="arrow_carrousel">
+                <span class="arrow_left material-symbols-outlined">arrow_back_ios</span>
+                <span class="arrow_right material-symbols-outlined">arrow_forward_ios</span>
+            </div>
+            <div class="circles_animated_carrousel">
+
+            </div>
+        </section>
+
+        <div class="container_info">
+            <section class="mid_info">
+                <div class="info_element info_element_one">
+                    <div class="card card_one card_top"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#5f6368"><path d="M224.12-161q-49.12 0-83.62-34.42Q106-229.83 106-279H40v-461q0-24 18-42t42-18h579v167h105l136 181v173h-71q0 49.17-34.38 83.58Q780.24-161 731.12-161t-83.62-34.42Q613-229.83 613-279H342q0 49-34.38 83.5t-83.5 34.5Zm-.12-60q24 0 41-17t17-41q0-24-17-41t-41-17q-24 0-41 17t-17 41q0 24 17 41t41 17ZM100-339h22q17-27 43.04-43t58-16q31.96 0 58.46 16.5T325-339h294v-401H100v401Zm631 118q24 0 41-17t17-41q0-24-17-41t-41-17q-24 0-41 17t-17 41q0 24 17 41t41 17Zm-52-204h186L754-573h-75v148ZM360-529Z"/></svg></div>
+                    <div class="card card_one card_mid">Envios a todo destino</div>
+                    <div class="card card_one card_bot">Reciba sus productos en la comodidad de su casa</div>
+                </div>
+                <div class="info_element info_element_two">
+                    <div class="card card_two card_top"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#5f6368"><path d="M180-80q-24.75 0-42.37-17.63Q120-115.25 120-140v-483q-17-6-28.5-21.39T80-680v-140q0-24.75 17.63-42.38Q115.25-880 140-880h680q24.75 0 42.38 17.62Q880-844.75 880-820v140q0 20.22-11.5 35.61T840-623v483q0 24.75-17.62 42.37Q804.75-80 780-80H180Zm0-540v480h600v-480H180Zm-40-60h680v-140H140v140Zm220 260h240v-60H360v60Zm120 40Z"/></svg></div>
+                    <div class="card card_two card_mid">Productos en tendencia</div>
+                    <div class="card card_two card_bot">Los mejores productos</div>
+                </div>
+                <div class="info_element info_element_three">
+                    <div class="card card_three card_top"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#5f6368"><path d="M353.77-383q-22.77 0-38.27-15.73-15.5-15.72-15.5-38.5 0-22.77 15.73-38.27 15.72-15.5 38.5-15.5 22.77 0 38.27 15.73 15.5 15.72 15.5 38.5 0 22.77-15.73 38.27-15.72 15.5-38.5 15.5Zm253 0q-22.77 0-38.27-15.73-15.5-15.72-15.5-38.5 0-22.77 15.73-38.27 15.72-15.5 38.5-15.5 22.77 0 38.27 15.73 15.5 15.72 15.5 38.5 0 22.77-15.73 38.27-15.72 15.5-38.5 15.5ZM480-140q142.38 0 241.19-98.95T820-480.47q0-25.53-4-50.53t-10-46q-20 5-43.26 7-23.26 2-48.74 2-97.11 0-183.56-40Q444-648 383-722q-34 81-97.5 141.5T140-487v7q0 142.37 98.81 241.19Q337.63-140 480-140Zm0 60q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-92-727q88 103 162.5 141T714-628q24 0 38-1t31-6q-45-81-122.5-133T480-820q-27 0-51 4t-41 9ZM149-558q48-18 109.5-81.5T346-793q-87 39-131.5 99.5T149-558Zm239-249Zm-42 14Z"/></svg></div>
+                    <div class="card card_three card_mid">Consulta personalizada</div>
+                    <div class="card card_three card_bot">Resolvemos dudas sobre nuestros productos</div>
+                </div>
+                <div class="info_element info_element_four">
+                    <div class="card card_four card_top"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#5f6368"><path d="m436-347 228-228-42-41-183 183-101-101-44 44 142 143Zm44 266q-140-35-230-162.5T160-523v-238l320-120 320 120v238q0 152-90 279.5T480-81Zm0-62q115-38 187.5-143.5T740-523v-196l-260-98-260 98v196q0 131 72.5 236.5T480-143Zm0-337Z"/></svg></div>
+                    <div class="card card_four card_mid">Compras seguras</div>
+                    <div class="card card_four card_bot">Tu informacion segura y protegida</div>
+                </div>
+            </section>
         </div>
-    </nav>
 
-</header>
-  <div class="product_plantilla">
+        <section class="products">
+            <div class="products_tittle">
+                <h1 id="tittle">Nuestras marcas</h1>
+            </div>
+            <div class="container_products">
+                <div data-marca="1" class="product_element product_1"><h1>TOCOBO</h1></div>
+                <div data-marca="2" class="product_element product_2"><h1>COSRX</h1></div>
+                <div data-marca="3" class="product_element product_3"><h1>NUMBUZIN</h1></div>
+                <div data-marca="4" class="product_element product_4"><h1>EUCERIN</h1></div>
+                <div data-marca="5" class="product_element product_5"><h1>ROCHE-POSAY</h1></div>
+                <div data-marca="6" class="product_element product_6"><h1>CERAVE</h1></div>
+                <div data-marca="7" class="product_element product_7"><h1>BABARIA</h1></div>
+                <div data-marca="8" class="product_element product_8"><h1>BEATYOFJOSEON</h1></div>
+                <div data-marca="9" class="product_element product_9"><h1>VICHY</h1></div>
+                <div data-marca="10" class="product_element product_10"><h1>AVENE</h1></div>
 
-      <section class="container_1">
-          <h1>Tocobo</h1>
-          <div class="container_top_bot">
+            </div>
 
-              <div class="c1_element c1_element_1">
-                  <div class="c1_element_top">
-                      <img src="Imagenes/Tocobo1.webp" alt="">
-                  </div>
-                  <div class="c1_element_bot">
-                      <img src="Imagenes/Tocobo1.webp" alt="">
-                      <img src="Imagenes/Tocobo3.webp" alt="">
-                      <img src="Imagenes/Tocobo4.jpg" alt="">
-                  </div>
-              </div>
+        </section>
 
-              <div class="c1_element c1_element_2">
-                  <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid assumenda, commodi eius exercitationem in modi,
-                      molestias perspiciatis possimus quaerat quasi quo repellendus sint. A hic impedit nihil perferendis quae.</h1>
-                  <div>
-                      <ul id="lista_right_1">
-                          <li>S/. 99.90</li>
-                          <li>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                          </li>
-                      </ul>
-                  </div>
-                  <hr>
-                  <div>
+        <section class="mas_vendido">
+            <div class="tittle_masVendidos">
+                <h1 id="tittle_2">Lo mas vendido</h1>
+            </div>
+            <div class="mas_vendido_seccion mas_vendido_seccion_one">
+                <div class="carousel_masVendidos carousel_masVendidos_one">
 
-                      <ul id="lista_right_2">
-                          <li>Tipo de piel</li>
-                          <li>Beneficios del producto</li>
-                          <li>Usado para</li>
-                          <li>Fragancia</li>
-                          <li>Ingredientes especiales</li>
-                      </ul>
-                      <ul id="lista_right_3">
-                          <li>Todos</li>
-                          <li>Anti acné</li>
-                          <li>Rostro</li>
-                          <li>Sin perfume</li>
-                          <li>Ácido pantoténico</li>
-                      </ul>
-                  </div>
-                  <hr>
-<!--                  6-->
-                  <ul>
-                      <h2>Acerca del producto</h2>
-                      <li>Un suero diario de ácido pantoténico ligero (vitamina B5) que hidrata y controla instantáneamente el exceso
-                          de aceite para calmar y prevenir brotes.</li>
-                      <li>Hidratación instantánea de 7 segundos con un acabado ligero y refrescante</li>
-                      <li>El ácido pantoténico controla eficazmente el exceso de aceite y los brotes</li>
-                      <li>Ingredientes calmantes que calman y suavizan tu piel al instante</li>
-                      <li>Tipo de piel: Adecuado para todo tipo de piel, especialmente grasa, propensa al acné y piel seca</li>
-                  </ul>
-              </div>
-          </div>
-      </section>
 
-      <section class="container_2">
-          <h1>Combinaciones recomendadas</h1>
-          <div class="recomendation_products">
+                </div>
+            </div>
+            <div class="mas_vendido_seccion mas_vendido_seccion_two">
+                <div class="carousel_masVendidos carousel_masVendidos_two">
 
-              <div class="recomendation_element recomendation_element_1">
-                  <img src="Imagenes/recomendados_1.png" alt="">
-                  <div class="img_info img_1_info">
-                      <h1>PRODUCTO 1</h1>
-                      <ul class="lista_img_top img_1_top">
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                      </ul>
-                      <ul class="lista_img_bot img_1_bot">
-                          <li><h3>AGREGAR</h3></li>
-                          <li><i class="fa-solid fa-cart-shopping"></i></li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="recomendation_element recomendation_element_2">
-                  <img src="Imagenes/recomendados_2.webp" alt="">
-                  <div class="img_info img_2_info">
-                      <h1>PRODUCTO 1</h1>
-                      <ul class="lista_img_top img_2_top">
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                      </ul>
-                      <ul class="lista_img_bot img_2_bot">
-                          <li><h3>AGREGAR</h3></li>
-                          <li><i class="fa-solid fa-cart-shopping"></i></li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="recomendation_element recomendation_element_3">
-                  <img src="Imagenes/recomendados_3.jpg" alt="">
-                  <div class="img_info img_3_info">
-                      <h1>PRODUCTO 1</h1>
-                      <ul class="lista_img_top img_3_top">
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                      </ul>
-                      <ul class="lista_img_bot img_3_bot">
-                          <li><h3>AGREGAR</h3></li>
-                          <li><i class="fa-solid fa-cart-shopping"></i></li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="recomendation_element recomendation_element_4">
-                  <img src="Imagenes/recomendados_5.webp" alt="">
-                  <div class="img_info img_4_info">
-                      <h1>PRODUCTO 1</h1>
-                      <ul class="lista_img_top img_4_top">
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                      </ul>
-                      <ul class="lista_img_bot img_4_bot">
-                          <li><h3>AGREGAR</h3></li>
-                          <li><i class="fa-solid fa-cart-shopping"></i></li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="recomendation_element recomendation_element_5">
-                  <img src="Imagenes/recomendados_6.webp" alt="">
-                  <div class="img_info img_5_info">
-                      <h1>PRODUCTO 1</h1>
-                      <ul class="lista_img_top img_5_top">
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                      </ul>
-                      <ul class="lista_img_bot img_5_bot">
-                          <li><h3>AGREGAR</h3></li>
-                          <li><i class="fa-solid fa-cart-shopping"></i></li>
-                      </ul>
-                  </div>
-              </div>
-              <div class="recomendation_element recomendation_element_6">
-                  <img src="Imagenes/recomendados_7.jpeg" alt="">
-                  <div class="img_info img_6_info">
-                      <h1>PRODUCTO 1</h1>
-                      <ul class="lista_img_top img_6_top">
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                          <li><i class="fa-solid fa-plus"></i><h3>sdfgsdfgsdfgsdfgsdfgdfs</h3></li>
-                      </ul>
-                      <ul class="lista_img_bot img_6_bot">
-                          <li><h3>AGREGAR</h3></li>
-                          <li><i class="fa-solid fa-cart-shopping"></i></li>
-                      </ul>
-                  </div>
-              </div>
+            </div>
+            </div>
+        </section>
 
-          </div>
-      </section>
-      <hr>
-      <section class="container_3">
-          <div class="c3_top">
-              <h1>K-MOON</h1>
-              <h2>K-MOON TE TRAE LO MEJOR EN PRODUCTOS DE BELLEZA</h2>
-              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae distinctio earum illum impedit molestiae pariatur provident quo totam! Aliquam corporis deleniti
-                  est expedita iure perspiciatis quidem suscipit velit. Odit, quasi?</h3>
-              <a>Conoce más aqui</a>
-          </div>
-          <div class="c3_mid">
-              <hr>
-              <div class="container_icons">
-                  <i class="fa-brands fa-facebook"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-tiktok"></i>
-                  <i class="fa-brands fa-whatsapp"></i>
-              </div>
-              <hr>
-          </div>
-          <div class="c3_bot">
-              <span>Quienes </span>
-              <span>Contacto</span>
-              <span>Productos</span>
-              <span>Promociones</span>
-              <span>Envios</span>
-          </div>
-          <div class="c3_bot_2">
-              <span>
-                  <i class="fa-solid fa-map-pin"></i>
-                  <h2>Encuentranos en Elvira García y García 2514</h2>
-              </span>
-          </div>
-          <div class="c3_bot_3">
-              <h1>© 2024 K-MOON - TODOS LOS DERECHOS RESERVADOS. DESARROLLADO POR <a>JEATDEAM</a></h1>
-          </div>
-      </section>
-  </div>
+        <section class="category">
+            <div class="info_category">
+                <div class="text_info_category">
+                    <hr class="line_top">
+                    <h1>Descubre nuestro catalogo</h1>
+                    <hr class="line_bot">
+                </div>
+            </div>
+            <div id="info_category_part_two">
+                <div class="container_elements_category">
+                    <div class="category_element category_1">
+                        <h1 class="text_category text_category_1">Serums</h1></div>
+                    <div class="category_element category_2">
+                        <h1 class="text_category text_category_1">Acne</h1></div>
+                    <div class="category_element category_3">
+                        <h1 class="text_category text_category_1">Rejuvenecimiento</h1></div>
+                    <div class="category_element category_4">
+                        <h1 class="text_category text_category_1">Pheeling</h1></div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<script type="module" src="javascript.js"></script>
+<!--    <template id="footer">-->
+        <footer class="container_3">
+            <div class="c3_top">
+                <h1>K-MOON</h1>
+                <h2>K-MOON TE TRAE LO MEJOR EN PRODUCTOS DE BELLEZA</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae distinctio earum illum impedit molestiae pariatur provident quo totam! Aliquam corporis deleniti
+                    est expedita iure perspiciatis quidem suscipit velit. Odit, quasi?</h3>
+                <a>Conoce más aqui</a>
+            </div>
+            <div class="c3_mid">
+                <hr>
+                <div class="container_icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <hr>
+            </div>
+            <div class="c3_bot">
+                <span>Quienes </span>
+                <span>Contacto</span>
+                <span>Productos</span>
+                <span>Promociones</span>
+                <span>Envios</span>
+            </div>
+            <div class="c3_bot_2">
+                  <span>
+                      <i class="fa-solid fa-map-pin"></i>
+                      <h2>Encuentranos en Elvira García y García 2514</h2>
+                  </span>
+            </div>
+            <div class="c3_bot_3">
+                <h1>© 2024 K-MOON - TODOS LOS DERECHOS RESERVADOS. DESARROLLADO POR <a>JEATDEAM</a></h1>
+            </div>
+        </footer>
+<!--    </template>-->
+
+
+<script type="module" src="javascript-main.js"></script>
 </body>
 </html>
